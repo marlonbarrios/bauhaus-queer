@@ -55,7 +55,9 @@ Node.js is required to run the application and manage its dependencies.
    Get started by cloning the repository to your local system.
 
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/marlonbarrios/bauhaus-time-traveler.git
+
+   or download the zip file
    ```
 
 2. **Install Dependencies**
