@@ -91,9 +91,9 @@ export default function Home() {
         <div className="w-[650px] h-[650px] bg-gray-200" style={{ transform: 'scaleX(-1)' }}>
           <Webcam audio={false} ref={webcamRef} screenshotFormat="image/jpeg" width={650} height={650} className="w-full h-full"/>
           <div className="audio-player my-4">
-          <p><audio controls src={audioSrc} style={{ transform: 'scaleX(-1)' }} >
-            Your browser does not support the audio element.
-          </audio></p>
+          <p><audio controls src={audioSrc} style={{ transform: 'scaleX(-1)' }} loop>
+    Your browser does not support the audio element.
+  </audio></p>
         </div>
 
         </div>
